@@ -1,0 +1,83 @@
+.todo-list {
+    max-width: 400px;
+    margin: 5vw auto;
+    text-align: center;
+    border:1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffbb00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width:100%;
+}
+
+button:hover {
+    background-color: #ffee51;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+    flex: 1;
+    font-size: 16px;
+}
+
+li button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width:70px;
+}
+
+li button:hover {
+    background-color: #e53935;
+}
+.crossed-line{
+    text-decoration: line-through;
+
+}
